@@ -7,7 +7,7 @@ body{
     padding: 0%;
 }
 .nav-wrapper{
-    background: rgb(192, 190, 190);
+    background: rgb(228, 217, 224);
     box-sizing: border-box;
     padding: 10px 90px;
 }
@@ -22,21 +22,14 @@ h1{
     margin-right: 5%;
     list-style: none;
     text-decoration: none;
-    font-weight: bold;
-    text-transform: uppercase;  
-}
-
-li.nav-list{
-    margin-left: 95px;
+    
     
 }
-li.nav-list:hover{
-    background-color: rgb(203, 38, 134);
-    border-radius: 2px;
+.nav-list{
+    margin-left: 80px;
 }
-
 .banner-section {
-    height: 100vh;
+    height: 80VH;
     width: 100%;
     padding: 270px 0;
     background-size: cover;
