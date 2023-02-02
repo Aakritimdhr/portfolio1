@@ -1,3 +1,8 @@
+.container{
+    max-width: 1270px;
+    margin: 0 auto;
+}
+
 /* *{
 margin: 0;
 padding: 0;
@@ -37,5 +42,10 @@ li{
     display: inline;
 }
 h1{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 20%;
+}
+header{
     color: aliceblue;
 }
