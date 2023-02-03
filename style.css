@@ -69,9 +69,22 @@ li {
 .lists {
     color: rgb(6, 64, 49);
 }
-.short-into{
+.short{
     text-align: left;
-    font-size: 30px;
+    font-size: 34px;
     font-weight: 100;
-    margin-top: 10%;
+    margin-top: 0%
+    rgb(74, 143, 132);
+}
+.a{
+    font-size: 50px;
+    font-style: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(74, 143, 132);
+    margin-top: 7%;
+}
+p.Citation {
+    font-size: 27px;
+    color:rgb(255, 255, 255);
+    background-color:rgb(74, 143, 132) ;
 }
