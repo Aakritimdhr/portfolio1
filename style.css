@@ -58,10 +58,30 @@ li.nav-list:hover{
    
 }
 
+    
+
+.button a{
+    display: inline-block;
+    padding: 20px 50px;
+    background: rgb(255, 220, 156);
+    border-radius: 30px;
+    text-decoration: none;
+    color: rgb(26, 24, 24);
+    font-size: 40px;
+    line-height: 1.4;
+    font-weight: 800;
+    transition: all 0.5s linear;
+}
+.button a:hover {
+    background: rgb(125, 26, 26);
+    color: rgb(222, 188, 124);
+}
+
+
 .text {
     margin-top: 93px;
-    display: flex;
     flex-direction: column;
+    text-align: center;
 }
 li {
     list-style: none;
@@ -69,12 +89,11 @@ li {
 .lists {
     color: rgb(6, 64, 49);
 }
-.short{
+.short-intro{
     text-align: left;
     font-size: 34px;
     font-weight: 100;
-    margin-top: 0%
-    rgb(74, 143, 132);
+    color:  rgb(74, 143, 132);
 }
 .a{
     font-size: 50px;
@@ -85,6 +104,57 @@ li {
 }
 p.Citation {
     font-size: 27px;
-    color:rgb(255, 255, 255);
-    background-color:rgb(74, 143, 132) ;
+    color:rgb(3, 3, 3);
+
+}
+.second-part{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+} 
+.contain{
+    position: relative;
+    width: 2000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 8%  ;
+}
+.contain .card{
+    width: 308px;
+    position: relative;
+    height: 400px;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0.5px 10px;
+    transition: 0.3s ease-in-out;
+    margin-top: 5%;
+    background: rgb(122 223 201);
+
+}  
+.contain .card .img-box{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    box-shadow: 0 5px 50px rgb(16, 113, 87); 
+
+
+}
+.container .card .img-box img{
+   max-width: 20%;
+   border-radius: 100px;
+
+}
+.img-box:hover img{
+ transform: scale(1.1);
+
+}
+img {
+    width: 296px;
 }
