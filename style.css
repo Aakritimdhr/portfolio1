@@ -10,14 +10,14 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 .nav-wrapper{
-    background: rgb(74, 143, 132);
+    background: #7DC22B;
     box-sizing: border-box;
     padding: 10px 90px;
     display: flex;
 }
 
 .text{
-    color: #fff;
+    color: #7DC22B;
     font-size: 55px;
     margin-top: 0%;
 }
@@ -298,4 +298,116 @@ section.four h2 {
     font-size: 20px;
     max-width: 1000px;
     color: #53575A;
+}
+
+.skills-content .progress {
+    height: 95px;
+    display: block;
+    background: none;
+    /* overflow: hidden; */
+    /* font-size: .75rem; */
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.skills h3 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.skills h4 {
+    margin: 0;
+}
+
+.progress-bar-wrap {
+    background-color: #e8edf5;
+    height: 22px;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    height: 22px;
+    background-color: #7DC22B;
+    border-radius: 10px;
+}
+
+.section-title h2 {
+    font-size: 42px;
+    text-align: center;
+}
+
+section.five {
+    padding: 100px 0;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.form .name {
+    flex: 0 0 44%;
+    width: 44%;
+}
+
+.form .email {
+    flex: 0 0 44%;
+    width: 44%;
+}
+
+.form .text {
+    flex: 0 0 92%;
+    width: 100%;
+}
+
+.fom{
+    width: 100%;
+    display: block;
+    font-size: 1rem;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    padding: 17px;
+}
+
+.form-list {
+    padding: 0 20px;
+}
+
+textarea {
+    height: 200px;
+}
+
+form {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.send-btn a {
+    text-decoration: none;
+    background: black;
+    color: #fff;
+    padding: 25px 80px;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.send-btn {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.send-btn a:hover {
+    background-color: #7DC22B;
+}
+
+section.six {
+    padding: 0 0 100px 0;
 }
