@@ -259,3 +259,43 @@ section.three .btn a {
     font-size: 18px;
     color: #7DC22B;
 }
+
+section.four h2 {
+    font-size: 43px;
+    text-align: center;
+}
+
+.edu-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.edu-wrapper .title {
+    background-color: #7DC22B;
+    /* margin-bottom: 40px; */
+    padding: 30px 50px;
+}
+
+.edu-wrapper .title h3 {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.edu-content h4 {
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 23px;
+}
+
+.edu-content {
+    padding: 40px;
+}
+
+.edu-content p {
+    margin-top: 0px;
+    font-size: 20px;
+    max-width: 1000px;
+    color: #53575A;
+}
