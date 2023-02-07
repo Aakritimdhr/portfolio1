@@ -1,5 +1,5 @@
 .container {
-    max-width: 1500px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 body{
@@ -156,5 +156,45 @@ p.Citation {
 
 }
 img {
-    width: 296px;
+    max-width: 100%;
+}
+.r h1{
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 60px;
+}
+
+.r h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5%;
+    background-color: aliceblue;
+    font-size: 30px;
+}
+.r h3{
+    text-align: left;
+    width: 50%;
+    background-color: antiquewhite;
+    font-size: 20px;
+}
+.three{
+    display: flex;
+}
+.l img{
+    margin-top: 20% 20% 20% 20%;
+}
+.left h1{
+    text-align: center;
+    font-size: 40px;
+}
+.edulevels{
+    margin-left: 10%;
+}
+.left h2{
+    
+}
+
+.second-part img {
+    width: 260px;
+    height: 260px;
 }
