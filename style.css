@@ -11,13 +11,12 @@ body{
 }
 .nav-wrapper{
     background: #7DC22B;
-    box-sizing: border-box;
     padding: 10px 90px;
     display: flex;
 }
 
 .text{
-    color: #7DC22B;
+    color: #609422;;
     font-size: 55px;
     margin-top: 0%;
 }
@@ -25,7 +24,7 @@ body{
 
 .nav-lists {
     display: flex;
-    margin-left: 43%;
+    margin-left: 13%;
     margin-right: 5%;
     list-style: none;
     text-decoration: none;
@@ -44,8 +43,6 @@ li.nav-list {
     font-size: 20px;
 }
 li.nav-list:hover{
-    
-    /* border-radius: 2px; */
     font-size: 25px;
     transition: 0.6s;
 }
@@ -54,11 +51,10 @@ li.nav-list:hover{
 .banner-section {
     height: 60vh;
     width: 100%;
-    padding: 173px 0;
+    padding: 120px 0;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-   
 }
 
     
@@ -66,7 +62,7 @@ li.nav-list:hover{
 .button a{
     display: inline-block;
     padding: 20px 50px;
-    background: rgb(255, 220, 156);
+    background: rgb(151, 147, 147);
     border-radius: 30px;
     text-decoration: none;
     color: rgb(26, 24, 24);
@@ -76,8 +72,8 @@ li.nav-list:hover{
     transition: all 0.5s linear;
 }
 .button a:hover {
-    background: rgb(125, 26, 26);
-    color: rgb(222, 188, 124);
+    background: #7DC22B;
+    color: rgb(250, 249, 246);
 }
 
 
@@ -92,24 +88,8 @@ li {
 .lists {
     color: rgb(6, 64, 49);
 }
-.short-intro{
-    text-align: left;
-    font-size: 34px;
-    font-weight: 100;
-    color:  rgb(74, 143, 132);
-}
-.a{
-    font-size: 50px;
-    font-style: bold;
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(74, 143, 132);
-    margin-top: 7%;
-}
-p.Citation {
-    font-size: 27px;
-    color:rgb(3, 3, 3);
 
-}
+
 .second-part{
     display: flex;
     justify-content: center;
@@ -117,13 +97,13 @@ p.Citation {
 } 
 .contain{
     position: relative;
-    width: 2000px;
+    /* width: 2000px; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     padding: 30px;
-    margin-top: 8%  ;
+    /* margin-top: 8%; */
 }
 .contain .card{
     width: 308px;
@@ -136,7 +116,7 @@ p.Citation {
     /* box-shadow: 0.5px 10px; */
     transition: 0.3s ease-in-out;
     margin-top: 5%;
-    background: rgb(122 223 201);
+    background: #7DC22B;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }  
 .contain .card .img-box{
@@ -161,40 +141,9 @@ p.Citation {
 img {
     max-width: 100%;
 }
-.r h1{
-    text-align: center;
-    margin-bottom: 2%;
-    font-size: 60px;
-}
 
-.r h2{
-    text-align: center;
-    color: rgb(0, 0, 0);
-    margin-bottom: 5%;
-    background-color: aliceblue;
-    font-size: 30px;
-}
-.r h3{
-    text-align: left;
-    width: 50%;
-    background-color: antiquewhite;
-    font-size: 20px;
-}
 .three{
     display: flex;
-}
-.l img{
-    margin-top: 20% 20% 20% 20%;
-}
-.left h1{
-    text-align: center;
-    font-size: 40px;
-}
-.edulevels{
-    margin-left: 10%;
-}
-.left h2{
-    
 }
 
 .second-part img {
@@ -217,7 +166,7 @@ section.three .into-wrapper .intro-content {
     flex: 0 0 40%;
     width: 40%;
     /* padding: 40px 36px; */
-    margin: auto 0;
+    margin: auto 165px;
 }
 
 section.three .into-wrapper .intro-photo {
@@ -410,4 +359,113 @@ form {
 
 section.six {
     padding: 0 0 100px 0;
+}
+@media screen and (max-width: 1024px) {
+ 
+    li.nav-list {
+        margin-left: 40px;
+        font-size: 16px;
+    }
+    .text{
+        font-size: 27px;
+    }
+    .button a { 
+        padding: 8px 28px;
+        font-size: 23px;
+    }
+    .contain.card{
+        width: 287px;
+        height: 354px;
+    }
+    .contain .card .img-box {
+        width: 246px;
+        height: 232px
+    }
+    .intro-content h2 {
+        font-size: 24px;
+    }
+    .intro-content p {
+        font-size: 14px;
+        padding: 21px;
+    }
+    section.three .into-wrapper .intro-content {
+        margin: auto 73px;
+    }
+    section.three .btn a {
+        font-size: 15px;
+        margin-left: 23px;
+    }
+    .intro-photo img {
+        height: 386px;
+    }
+    section.four h2 {
+        font-size: 30px;
+    }
+    .edu-wrapper .title {
+        margin-left: 34px;
+        padding: 14px 37px;
+    } 
+    .edu-content h4 {
+        font-size: 21px;
+    }
+    .edu-content p {
+        
+        font-size: 16px;
+    }
+    .section-title h2 {
+        font-size: 31px;
+    }
+    .skills-content .progress {
+        height: 69px;
+        padding: 21px;
+    }
+    .skills h3 {
+        font-size: 16px;
+    }
+    .progress-bar {
+        height: 15px;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .nav-lists {
+        margin-left: -5%;
+    }
+    header {
+        width: 102%;
+    }
+    .intro-content h2 {
+        font-size: 20px;
+        margin-left: 22px;
+    }
+    
+}
+@media screen and (max-width: 300px) {
+    header{
+    width: 212%;
+    }
+    .nav-lists {
+        margin-left: -36%;
+    }
+    .banner-section {
+        width: 197%;
+    }
+    .contain{
+    margin-top: 15%;
+    margin-left: 284px;
+    }
+    .container {
+        margin-left: 79px;
+    }
+    section.four h2 {
+        font-size: 25px;
+        margin-left: 79px;
+    }
+    .send-btn a {
+        font-size: 8px
+    }
+    section.three .into-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
 }
